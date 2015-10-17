@@ -1,0 +1,20 @@
+
+-- Find the number of competitions per user
+-- Find the number of submissions per user
+-- Find the average number of submissions per competition for every user
+
+SELECT u.displayname,  
+    Count(tm.TeamID) AS 'Competitions',
+    sb.submissions AS 'Sumbissions',
+    sb.submissions/Count(tm.TeamID) AS 'Avg sub per competition'
+    
+FROM teamMemberShips tm
+INNER JOIN users u ON tm.UserID = u.ID
+
+INNER JOIN (SELECT submittedUserID, count(submittedUserID) AS 'Submissions' 
+            FROM submissions s 
+            JOIN users u on s.submittedUserID = u.id GROUP BY u.id) sb
+            ON u.ID = sb.submittedUserID
+
+GROUP BY u.displayname
+order by 1 DESC
