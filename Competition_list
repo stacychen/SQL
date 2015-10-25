@@ -1,0 +1,10 @@
+
+GOAL: Create a list of all competition names. List the names in alphabetical order.
+Table used: Competition
+
+
+SQL query code:
+
+SELECT CompetitionName
+FROM Competitions
+Order By CompetitionName
