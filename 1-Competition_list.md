@@ -5,7 +5,8 @@ Table used: Competitions
 
 
 SQL query code:
-
+```  
 SELECT CompetitionName
 FROM Competitions
 Order By CompetitionName
+```
