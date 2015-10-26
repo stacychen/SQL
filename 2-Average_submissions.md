@@ -1,5 +1,5 @@
 
-Goal: Calculate the average number of submissions per competition for each individual user
+### Goal: Calculate the average number of submissions per competition for each individual user
 
 The first column lists the names of individual users.
 The second column lists the number of competitions each individual participates in.
@@ -8,9 +8,10 @@ The fourth column lists the average number of submissions per competition made b
 
 SQL query code:
 
+```
 SELECT u.displayname,  
     Count(tm.TeamID) AS 'Competitions',
-    sb.submissions AS 'Sumbissions',
+    sb.submissions AS 'Submissions',
     sb.submissions/Count(tm.TeamID) AS 'Avg sub per competition'
     
 FROM teamMemberShips tm
@@ -22,4 +23,5 @@ INNER JOIN (SELECT submittedUserID, count(submittedUserID) AS 'Submissions'
             ON u.ID = sb.submittedUserID
 
 GROUP BY u.displayname
-order by 1 DESC
+ORDER BY 1 DESC
+```
