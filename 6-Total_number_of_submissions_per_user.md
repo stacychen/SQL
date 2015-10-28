@@ -4,7 +4,7 @@
 
 * Tables used: Users, Submissions
 ```
-SELECT u.ID, COUNT(s.SubmittedUserID)
+SELECT u.ID, COUNT(s.SubmittedUserID) AS 'Number of Submissions'
     FROM users u
 JOIN submissions s  ON u.ID = s.SubmittedUserID
 GROUP BY u.ID
