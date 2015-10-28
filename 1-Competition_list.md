@@ -11,4 +11,4 @@ SELECT CompetitionName
 ORDER BY CompetitionName
 ```
 
-[See results here.](https://www.kaggle.com/lochleven/meta-kaggle/competition-list1/run/96425)
+[See results here](https://www.kaggle.com/lochleven/meta-kaggle/competition-list1/run/96425)
