@@ -11,7 +11,7 @@ SELECT CompetitionName
 ORDER BY CompetitionName
 ```
 ##### Notes:
-- SELECT CompetitionName FROM Competitions --This selects the CompetitionName column from the _Competitions_ table.
+- SELECT CompetitionName FROM Competitions --This selects the **CompetitionName** column from the **Competitions** table.
 - ORDER BY CompetitionName -- This will list the competition names in ascending alphabetical order.
 
 
