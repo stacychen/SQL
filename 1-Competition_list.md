@@ -10,6 +10,7 @@ SELECT CompetitionName
   FROM Competitions
 ORDER BY CompetitionName
 ```
+
 ##### Notes:
 ```  
 SELECT CompetitionName
