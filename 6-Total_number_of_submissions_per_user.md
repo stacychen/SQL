@@ -2,6 +2,7 @@
 
 ## Goal: count the number of submissions from each user
 
+* Tables used: Users, Submissions
 ```
 SELECT u.ID, COUNT(s.SubmittedUserID)
     FROM users u
