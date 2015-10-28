@@ -15,11 +15,8 @@ ORDER BY CompetitionName
 ```  
 SELECT CompetitionName
   FROM Competitions
-
--- This selects the **CompetitionName** column from the **Competitions** table.
-
-
 ```
+- This selects the **CompetitionName** column from the **Competitions** table.
 
 ```
 ORDER BY CompetitionName
