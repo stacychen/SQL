@@ -10,8 +10,9 @@ SELECT CompetitionName
   FROM Competitions
 ORDER BY CompetitionName
 ```
-
-#### SELECT CompetitionName FROM Competitions **This selects the *CompetitionName* column from the _Competitions_ table.**
+Notes:
+SELECT CompetitionName FROM Competitions **This selects the *CompetitionName* column from the _Competitions_ table.**
+ORDER BY CompetitionName **This will list the competition names in ascending alphabetical order.**
 
 
 [See results here](https://www.kaggle.com/lochleven/meta-kaggle/competition-list1/run/96425)
