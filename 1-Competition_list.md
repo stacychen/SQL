@@ -1,5 +1,5 @@
 
-## GOAL: Create a list of all competition names. List the names in alphabetical order.
+### GOAL: Create a list of all competition names. List the names in alphabetical order.
 
 Table used: Competitions
 
@@ -11,7 +11,7 @@ SELECT CompetitionName
 ORDER BY CompetitionName
 ```
 
-SELECT CompetitionName FROM Competitions **This selects the *CompetitionName* column from the _Competitions_ table.**
+#### SELECT CompetitionName FROM Competitions **This selects the *CompetitionName* column from the _Competitions_ table.**
 
 
 [See results here](https://www.kaggle.com/lochleven/meta-kaggle/competition-list1/run/96425)
