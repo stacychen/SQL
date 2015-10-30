@@ -31,7 +31,7 @@ WHERE RewardQuantity != ''
 ```
 ORDER BY RewardQuantity DESC
 ```
-*The above code will display the competition according to the prize value, in descending order. The competition with the highest prize value will be listed first.
+* The above code will display the competition according to the prize value, in descending order. The competition with the highest prize value will be listed first.
 
 
 [See Results here!](https://www.kaggle.com/lochleven/meta-kaggle/competition-list1/run/97102/files)
