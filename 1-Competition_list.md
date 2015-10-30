@@ -8,7 +8,8 @@ SQL code:
 ```  
 SELECT CompetitionName
   FROM Competitions
-ORDER BY CompetitionName;
+ORDER BY CompetitionName
+;
 ```
 ---
 
