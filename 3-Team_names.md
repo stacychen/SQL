@@ -22,3 +22,5 @@ SELECT C.CompetitionName, T.TeamName
 ```
 
 * The above code will display the **CompetitionName** column from the **Competitions** table and will display the **TeamName** column from the **Teams** table.
+* The alias **C** is used for the table **Competitions** and the alias **T** is used for the table **Teams**.
+* The **Competitions** table will be joined with the **Teams** table by matching **ID** in **Competitions** with **CompetitionID** in **Teams**.
