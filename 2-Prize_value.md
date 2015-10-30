@@ -21,7 +21,7 @@ ORDER BY RewardQuantity DESC
 SELECT CompetitionName, RewardQuantity
   FROM Competitions
 ```
-The above code will select the *CompetitionName* and *RewardQuantity* columns from the *Competitions* table. 
+The above code will select the **CompetitionName** and **RewardQuantity** columns from the **Competitions** table. 
 
 ```
 WHERE RewardQuantity IS NOT NULL
