@@ -12,7 +12,7 @@ SELECT CompetitionName, RewardQuantity
   FROM Competitions
 WHERE RewardQuantity != ''
 ORDER BY RewardQuantity DESC
-
+;
 ```
 ---
 
