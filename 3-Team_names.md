@@ -5,6 +5,9 @@ Create a list with all the team names for a single competition. Here, the compet
 
 Tables used: Competitions, Teams
 
+---
+SQL code:
+
 ```
 SELECT C.CompetitionName, T.TeamName
     FROM Competitions AS C
@@ -13,6 +16,8 @@ WHERE CompetitionName = (SELECT CompetitionName FROM Competitions WHERE Competit
 ORDER BY T.TeamName
 ;
 ```
+---
+
 ##### Notes:
 
 ```
