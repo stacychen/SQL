@@ -1,6 +1,8 @@
 
 ## Goal: List the competitions in the order of their prize value
 
+Create a list
+
 Table used: Competitions
 
 ---
