@@ -6,7 +6,7 @@ Create a list with all the competition names. List the competition names in the 
 Table used: Competitions
 
 ---
-SQL Query code:
+SQL code:
 ```
 SELECT CompetitionName, RewardQuantity
   FROM Competitions
