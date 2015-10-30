@@ -4,7 +4,7 @@
 Table used: Competitions
 
 ---
-SQL query code:
+SQL code:
 ```  
 SELECT CompetitionName
   FROM Competitions
