@@ -3,11 +3,12 @@
 
 Table used: Competitions
 
-
+---
 ```
 SELECT CompetitionName, RewardQuantity
-FROM Competitions
+  FROM Competitions
 WHERE RewardQuantity IS NOT NULL
 ORDER BY RewardQuantity DESC
 
 ```
+---
