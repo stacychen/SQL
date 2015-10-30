@@ -1,5 +1,5 @@
 
-### GOAL: Create a list of all competition names. 
+### Goal: Create a list of all competition names. 
 
 Table used: Competitions
 
