@@ -3,14 +3,14 @@
 
 Table used: Competitions
 
-
+---
 SQL query code:
 ```  
 SELECT CompetitionName
   FROM Competitions
 ORDER BY CompetitionName
 ```
-
+---
 
 
 ##### Notes:
