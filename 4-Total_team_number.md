@@ -1,12 +1,15 @@
 
 
-## Goal: Calculate the number of teams in a particular competition
+## Goal: Calculate the number of teams for one competition.
+
+The goal is to calculate the number of teams for one selected competition. Here, the competition selected will be the first competition with a name that begins with the letter 'H'. 
 
 ```
 SELECT C.CompetitionName, COUNT(T.TeamName)
   FROM Competitions C
 JOIN Teams T ON C.Id = T.CompetitionId
-  WHERE CompetitionName = (SELECT CompetitionName 
-    FROM Competitions WHERE CompetitionName LIKE 'B%' Limit 1);
-
+  WHERE CompetitionName IN (SELECT CompetitionName FROM Competitions 
+                            WHERE CompetitionName LIKE 'H%' 
+                            ORDER BY CompetitionName LIMIT 1)
+;
 ```
