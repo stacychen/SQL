@@ -42,4 +42,4 @@ ORDER BY T.TeamName
 ```
 * The above code will list the team names in alphabetical order. 
 
-[See results here!](https://www.kaggle.com/lochleven/meta-kaggle/competition-list1/run/97745/files) 
+[See results here!](https://www.kaggle.com/lochleven/meta-kaggle/competition-list1/run/97800) 
