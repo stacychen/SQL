@@ -13,3 +13,5 @@ JOIN Teams T ON C.Id = T.CompetitionId
                             ORDER BY CompetitionName LIMIT 1)
 ;
 ```
+
+[See results here!](https://www.kaggle.com/lochleven/meta-kaggle/competition-list1/run/97821)
