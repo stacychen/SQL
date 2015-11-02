@@ -4,6 +4,8 @@
 
 The goal is to calculate the number of teams for one selected competition. Here, the competition selected will be the first competition with a name that begins with the letter 'H'. 
 
+Tables used: Competitions, Teams
+
 ```
 SELECT C.CompetitionName, COUNT(T.TeamName)
   FROM Competitions C
