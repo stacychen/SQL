@@ -7,7 +7,7 @@ The output consists of two columns: the first column displays user ID and the se
 * Tables used: Users, Submissions
 
 ---
-SQL Query code:
+SQL code:
 ```
 SELECT u.ID, COUNT(s.SubmittedUserID) AS 'Number of Submissions'
     FROM users u
@@ -16,3 +16,8 @@ GROUP BY u.ID
 ORDER BY u.ID
 ```
 ---
+
+##### Notes:
+
+
+[See results here!](https://www.kaggle.com/lochleven/meta-kaggle/competition-list1/run/99042)
