@@ -3,6 +3,7 @@
 ## Goal: count the number of submissions from each user.
 
 * Tables used: Users, Submissions
+
 ---
 SQL Query code:
 ```
