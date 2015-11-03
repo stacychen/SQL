@@ -1,6 +1,8 @@
 
 
-## Goal: count the number of submissions from each user.
+## Goal: Count the number of submissions from each user.
+
+The output consists of two columns: the first column displays user ID and the second column displays the number of submissions made by that user.
 
 * Tables used: Users, Submissions
 
