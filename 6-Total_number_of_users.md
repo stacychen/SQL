@@ -1,9 +1,11 @@
 
-## Goal: List all competitions and their number of users 
+## Goal: List all competitions and their number of users.
 
-* The first column lists all the competition names and the second column lists the total number of users for each competition.
-* Tables used: Competitions, Teams, TeamMemberships
+Create a table with two columns, with the first column listing the names of all the compeition and the second column listing the number of users participating in the competition.
 
+Tables used: Competitions, Teams, TeamMemberships
+
+---
 ```
 SELECT c.CompetitionName, COUNT(UserID) AS 'Number of Users'
     FROM Competitions AS c
@@ -14,4 +16,20 @@ JOIN TeamMemberships AS tm
 
 GROUP BY CompetitionName
 ORDER BY CompetitionName
+;
 ```
+---
+
+##### Notes:
+
+```
+SELECT c.CompetitionName, COUNT(tm.UserID) AS 'Number of Users'
+    FROM Competitions AS c
+JOIN Teams AS t
+    ON c.ID = t.CompetitionID
+JOIN TeamMemberships AS tm
+    ON t.ID = tm.TeamID
+```
+* The above code will select the **CompetitionName** column from the **Competitions** table. The code will also count the number of user IDs that is associated for the selected competition. 
+* The alias **C** is used for the table **Competitions**, the alias **T** is used for the table **Teams**, and the alias **tm** is used for the table **TeamMemberships**.
+* The **Competitions** table will be joined with the **Teams** table by matching **ID** in **Competitions** with **CompetitionID** in **Teams**.
