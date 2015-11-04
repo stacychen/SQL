@@ -28,5 +28,9 @@ JOIN submissions s  ON u.ID = s.SubmittedUserID
 * The alias **u** is used for the table **Users** and the alias **s** is used for the table **Submissions**.
 * The **Users** table will be joined with the **Submissions** table by matching **ID** in **Users** with **SubmittedUserID** in **Submissions**.
 
-
+```
+GROUP BY u.ID
+ORDER BY u.ID
+```
+* The above code will group all the identical user ID numbers together and then count the number of submissions associated with that particular user ID. The *ORDER BY* statement will list the user IDs in ascending order.
 [See results here!](https://www.kaggle.com/lochleven/meta-kaggle/competition-list1/run/99042)
