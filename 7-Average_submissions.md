@@ -6,6 +6,7 @@
 * The third column lists the total number of submissions made by each individual user. 
 * The fourth column lists the average number of submissions per competition made by each user. 
 
+Tables used: Users, TeamMemberships, Submissions
 ---
 SQL code:
 
@@ -26,5 +27,6 @@ INNER JOIN
             ON u.ID = sb.submittedUserID
 GROUP BY u.displayname
 ORDER BY 1 DESC
+;
 ```
 ---
