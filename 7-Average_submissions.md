@@ -19,10 +19,10 @@ SELECT
     sb.submissions AS 'Submissions',
     sb.submissions/Count(tm.TeamID) AS 'Avg sub per competition'
 FROM 
-    teamMemberShips tm
-INNER JOIN 
-    users u ON tm.UserID = u.ID
-INNER JOIN 
+    users u
+JOIN 
+    teamMemberships tm ON tm.UserID = u.ID
+JOIN 
     (SELECT submittedUserID, count(submittedUserID) AS 'Submissions' 
             FROM submissions s 
             JOIN users u on s.submittedUserID = u.id GROUP BY u.id) sb
