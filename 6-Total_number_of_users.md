@@ -7,10 +7,15 @@ Tables used: Competitions, Teams, TeamMemberships
 
 ---
 ```
-SELECT c.CompetitionName, COUNT(UserID) AS 'Number of Users'
-    FROM Competitions AS c
-        JOIN Teams AS t ON c.ID = t.CompetitionID
-            JOIN TeamMemberships AS tm ON t.ID = tm.TeamID
+SELECT 
+    c.CompetitionName, 
+    COUNT(UserID) AS 'Number of Users'
+FROM 
+    Competitions AS c
+JOIN 
+    Teams AS t ON c.ID = t.CompetitionID
+JOIN 
+    TeamMemberships AS tm ON t.ID = tm.TeamID
 GROUP BY CompetitionName
 ORDER BY CompetitionName
 ;
@@ -20,10 +25,15 @@ ORDER BY CompetitionName
 ##### Notes:
 
 ```
-SELECT c.CompetitionName, COUNT(UserID) AS 'Number of Users'
-    FROM Competitions AS c
-        JOIN Teams AS t ON c.ID = t.CompetitionID
-            JOIN TeamMemberships AS tm ON t.ID = tm.TeamID
+SELECT 
+    c.CompetitionName, 
+    COUNT(UserID) AS 'Number of Users'
+FROM 
+    Competitions AS c
+JOIN 
+    Teams AS t ON c.ID = t.CompetitionID
+JOIN 
+    TeamMemberships AS tm ON t.ID = tm.TeamID
 ```
 * The above code will select the **CompetitionName** column from the **Competitions** table. The code will also count the number of user IDs that is associated for the selected competition. The column that displays the number of user IDs will be renamed as **Number of Users**.
 * The alias **C** is used for the table **Competitions**, the alias **T** is used for the table **Teams**, and the alias **tm** is used for the table **TeamMemberships**.
