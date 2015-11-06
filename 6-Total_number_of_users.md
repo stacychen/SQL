@@ -46,3 +46,5 @@ ORDER BY CompetitionName
 * The above code will group all the identical competition names together and then count the number of user IDs associated with that particular competition. The *ORDER BY* statement will list the compeitions in alphabetical order.
 
 * The **TeamMemberships** table will be joined with the **Teams** table by matching **ID** in **Teams** with **TeamID** in **TeamMemberships**.
+
+[See results here!](https://www.kaggle.com/lochleven/meta-kaggle/competition-list1/run/100632)
