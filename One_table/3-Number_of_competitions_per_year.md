@@ -13,6 +13,13 @@ SELECT
 FROM competitions
 GROUP BY Year
 ```
+Notes:
+
+
+
+
+
+[See results here!](https://www.kaggle.com/lochleven/meta-kaggle/competition-list1/run/101433)
 
 
 
