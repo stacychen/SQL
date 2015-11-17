@@ -1,5 +1,5 @@
 
-## Goal: Find the total number of competitions every year.
+### Goal: Find the total number of competitions every year.
 
 Table used: Competitions
 
@@ -21,7 +21,7 @@ Notes:
 
 [See results here!](https://www.kaggle.com/lochleven/meta-kaggle/competition-list1/run/101433)
 
-## Goal: Find the number of competitions per month for the year 2014.
+### Goal: Find the number of competitions per month for the year 2014.
 
 ---
 SQL code:
@@ -36,6 +36,6 @@ GROUP BY Month
 ```
 [See results here!](https://www.kaggle.com/lochleven/meta-kaggle/competition-list1/run/105926)
 
-
+---
 
 
