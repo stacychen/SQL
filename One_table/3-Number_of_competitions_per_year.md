@@ -30,12 +30,11 @@ SQL code:
 SELECT 
     strftime('%m', dateEnabled) AS 'Month',
     COUNT('Month') AS 'Number of Competitions'
-    
 FROM competitions
 WHERE dateEnabled BETWEEN '2014-01-01' AND '2015-01-01'
 GROUP BY Month
-
 ```
+[See results here!](https://www.kaggle.com/lochleven/meta-kaggle/competition-list1/run/105926)
 
 
 
