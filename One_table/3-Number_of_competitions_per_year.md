@@ -21,6 +21,22 @@ Notes:
 
 [See results here!](https://www.kaggle.com/lochleven/meta-kaggle/competition-list1/run/101433)
 
+## Goal: Find the number of competitions per month for the year 2014.
+
+---
+SQL code:
+
+```
+SELECT 
+    strftime('%m', dateEnabled) AS 'Month',
+    COUNT('Month') AS 'Number of Competitions'
+    
+FROM competitions
+WHERE dateEnabled BETWEEN '2014-01-01' AND '2015-01-01'
+GROUP BY Month
+
+```
+
 
 
 
