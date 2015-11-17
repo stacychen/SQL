@@ -3,9 +3,33 @@
 
 ---
 SQL code:
+
+```
+library(readr)
+library(RSQLite)
+
+db <- dbConnect(dbDriver("SQLite"), "../input/database.sqlite")
+
+request <- "
+SELECT 
+    strftime('%Y', dateEnabled) AS 'Year', 
+    COUNT(*) AS 'Competitions'
+FROM competitions
+GROUP BY Year
+"
+comp_count <- dbGetQuery(db, request)
+
+barplot(comp_count$Competitions, main = "Number of Competitions Per Year",
+        names = comp_count$Year,
+        xlab = 'Year', ylab = 'Frequency', col = 'blue2')
+box()
+
+
 ```
 
-
+---
 [See results here!](https://www.kaggle.com/lochleven/meta-kaggle/competition-list1/run/105801)
 
-```
+
+
+
