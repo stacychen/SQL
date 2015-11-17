@@ -1,5 +1,5 @@
 
-## Goal: Create a bar graph displaying the number of competitions released each year.
+### Goal: Create a bar graph displaying the number of competitions released each year.
 
 ---
 SQL code:
@@ -30,6 +30,10 @@ box()
 ---
 [See results here!](https://www.kaggle.com/lochleven/meta-kaggle/competition-list1/run/105801)
 
+### Create a bar graph showing the number of competitions released per month in the year 2014. 
 
+---
+SQL Code:
+```
 
 
