@@ -57,5 +57,5 @@ barplot(monthly_count$Competitions, main = "Number of Competitions Per Month in 
 box()
 
 ```
-[See results here](https://www.kaggle.com/lochleven/meta-kaggle/competition-list1/run/105935)
+[See results here!](https://www.kaggle.com/lochleven/meta-kaggle/competition-list1/run/105935)
 
