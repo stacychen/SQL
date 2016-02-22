@@ -1,7 +1,7 @@
 
 ## Goal: List all the teams names for a single competition.
 
-Create a list with all the team names for a single competition. Here, the competition will be the first competition with a name that begins with the letter 'A'. The team names in this competition will be listed in alphabetical order.
+Create a list with all the team names for a single competition. Here, the competition will be the first competition with a name that begins with the letter 'C'. The team names in this competition will be listed in alphabetical order.
 
 Tables used: Competitions, Teams
 
