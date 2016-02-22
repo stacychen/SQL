@@ -47,4 +47,4 @@ ORDER BY CompetitionName
 
 * The **TeamMemberships** table will be joined with the **Teams** table by matching **ID** in **Teams** with **TeamID** in **TeamMemberships**.
 
-[See results here!](https://www.kaggle.com/lochleven/meta-kaggle/competition-list1/run/100632)
+Run this code [here](https://www.kaggle.com/lochleven/d/kaggle/meta-kaggle/competition-list1/edit)
