@@ -17,7 +17,7 @@ GROUP BY Year
 Notes:
 
 
-* The above code will extract year from the **dateEnabled** column from the **Competitions** table. 
+* The above code will extract year from the **dateEnabled** column from the **Competitions** table. The column displaying the years will be renamed as **Year**.  
 * The above code will also count the total number of competitions for the given years. The column will be renamed as **Number of Competitions**.  
 * The GROUP BY statement will group all the identical years together. 
 
