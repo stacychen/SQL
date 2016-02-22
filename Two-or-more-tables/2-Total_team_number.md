@@ -34,4 +34,4 @@ WHERE CompetitionName IN (SELECT CompetitionName FROM Competitions
 * The above code is a conditions statement. The code inside the parenthesis will search for all the competition names that begin with the letter 'H'. Then, the list of competition names will be listed in alphabetic order. The *LIMIT 1* statement will return only one competition name. The one competition name will be selected and the number of teams registered for the competition will be counted.
 
 
-[See results here!](https://www.kaggle.com/lochleven/meta-kaggle/competition-list1/run/97821)
+Run this code [here](https://www.kaggle.com/lochleven/d/kaggle/meta-kaggle/competition-list1/edit)
