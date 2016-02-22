@@ -32,5 +32,7 @@ ORDER BY 1 DESC
 ;
 ```
 ---
+Notes:
 
-[See results here!](https://www.kaggle.com/lochleven/d/kaggle/meta-kaggle/competition-list1/run/164425)
+Run this code [here](https://www.kaggle.com/lochleven/d/kaggle/meta-kaggle/competition-list1/edit)
+
