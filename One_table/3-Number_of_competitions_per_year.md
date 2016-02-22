@@ -34,7 +34,8 @@ FROM competitions
 WHERE dateEnabled BETWEEN '2014-01-01' AND '2015-01-01'
 GROUP BY Month
 ```
+
 Run this code [here](https://www.kaggle.com/lochleven/d/kaggle/meta-kaggle/competition-list1/edit)
----
+
 
 
