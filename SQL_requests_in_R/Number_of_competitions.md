@@ -28,7 +28,7 @@ box()
 ```
 
 ---
-[See results here!](https://www.kaggle.com/lochleven/meta-kaggle/competition-list1/run/105801)
+Run this code [here](https://www.kaggle.com/lochleven/d/kaggle/meta-kaggle/competition-list1/edit)
 
 ### Create a bar graph showing the number of competitions released per month in the year 2014. 
 
@@ -57,5 +57,5 @@ barplot(monthly_count$Competitions, main = "Number of Competitions Per Month in 
 box()
 
 ```
-[See results here!](https://www.kaggle.com/lochleven/meta-kaggle/competition-list1/run/105935)
+Run this code [here](https://www.kaggle.com/lochleven/d/kaggle/meta-kaggle/competition-list1/edit)
 
