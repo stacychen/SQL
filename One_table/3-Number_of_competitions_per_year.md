@@ -15,6 +15,14 @@ GROUP BY Year
 ```
 Notes:
 
+```
+SELECT 
+    strftime('%Y', dateEnabled) AS 'Year', 
+    COUNT(*) AS 'Number of Competitions'
+FROM competitions
+```
+* The above code will extract year from the **dateEnabled** column from the **Competitions** table. 
+* The above code will also count the total number of competitions for the given years.  
 
 
 
