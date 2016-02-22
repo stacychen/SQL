@@ -33,5 +33,6 @@ ORDER BY RewardQuantity DESC
 ```
 * The above code will display the competition according to the prize value, in descending order. The competition with the highest prize value will be listed first.
 
+Run this code [here](https://www.kaggle.com/lochleven/d/kaggle/meta-kaggle/competition-list1/edit)
 
 
