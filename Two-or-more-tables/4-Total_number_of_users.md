@@ -1,7 +1,7 @@
 
 ## Goal: List all competitions and their number of users.
 
-Create a table with two columns, with the first column listing the names of all the compeition and the second column listing the number of users participating in the competition.
+Create a table with two columns, with the first column listing the names of all the compeition and the second column listing the number of users participating in the named competition.
 
 Tables used: Competitions, Teams, TeamMemberships
 
