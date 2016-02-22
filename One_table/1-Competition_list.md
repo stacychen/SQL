@@ -26,5 +26,6 @@ ORDER BY CompetitionName
 ```
 - The above code lists the competition names in ascending alphabetical order.
 
+Run this code [here](https://www.kaggle.com/lochleven/d/kaggle/meta-kaggle/competition-list1/edit)
 
 
