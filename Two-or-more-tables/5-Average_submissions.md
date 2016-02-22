@@ -42,9 +42,7 @@ ORDER BY 1 DESC
 * The **users** table will be joined with the **teamMemberships** table by matching **ID** in **users** with **userID** in **teamMemberships**.
 * Line 26-29: These lines will count the number of subissions for each user. This is done by: joining the **users** table with **submissions** table by matching **ID** in users with **submittedUserID** in **submissions**. This newly created table will know as **sb** that consists of two columns: **submittedUserID** and **submissions** - providing the number of submissions for each user ID. The **submissions** column counts the number of submissions per userID. 
 * Line 25: the **users** table is joined with the **sb** table by matching **ID** in **user** with **submittedUserID** in **sb**. 
-
 * Line 30-31: The GROUP BY statement will group all the identical user names together. The ORDER BY statement will list all the usernames in alphabetical order.
-
 
 Run this code [here](https://www.kaggle.com/lochleven/d/kaggle/meta-kaggle/competition-list1/edit)
 
