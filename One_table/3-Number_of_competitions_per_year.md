@@ -19,7 +19,7 @@ Notes:
 
 
 
-[See results here!](https://www.kaggle.com/lochleven/meta-kaggle/competition-list1/run/101433)
+Run this code [here](https://www.kaggle.com/lochleven/d/kaggle/meta-kaggle/competition-list1/edit)
 
 ### Goal: Find the number of competitions per month for the year 2014.
 
