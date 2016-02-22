@@ -16,17 +16,10 @@ GROUP BY Year
 ---
 Notes:
 
-```
-SELECT 
-    strftime('%Y', dateEnabled) AS 'Year', 
-    COUNT(*) AS 'Number of Competitions'
-FROM competitions
-```
+
 * The above code will extract year from the **dateEnabled** column from the **Competitions** table. 
-* The above code will also count the total number of competitions for the given years.  
-
-
-
+* The above code will also count the total number of competitions for the given years. The column will be renamed as **Number of Competitions**.  
+* The GROUP BY statement will group all the identical years together. 
 
 Run this code [here](https://www.kaggle.com/lochleven/d/kaggle/meta-kaggle/competition-list1/edit)
 
