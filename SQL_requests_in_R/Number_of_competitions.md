@@ -21,7 +21,7 @@ comp_count <- dbGetQuery(db, request)
 
 barplot(comp_count$Competitions, main = "Number of Competitions Per Year",
         names = comp_count$Year,
-        xlab = 'Year', ylab = 'Frequency', col = 'blue2')
+        xlab = 'Year', ylab = 'Frequency', col = 'blue2', ylim = c(0, 65))
 box()
 
 
